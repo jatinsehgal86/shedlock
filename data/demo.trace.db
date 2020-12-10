@@ -1,0 +1,6 @@
+2020-12-08 18:23:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "SHEDLOCK" not found; SQL statement:
+INSERT INTO shedlock(name, lock_until, locked_at, locked_by) VALUES(?, ?, ?, ?) [42102-200]
+2020-12-08 18:23:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "SHEDLOCK" not found; SQL statement:
+UPDATE shedlock SET lock_until = ?, locked_at = ?, locked_by = ? WHERE name = ? AND lock_until <= ? [42102-200]
